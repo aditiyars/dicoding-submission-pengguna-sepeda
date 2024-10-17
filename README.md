@@ -15,3 +15,7 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
+
+# Project Running
+
+https://aditiyars-sepeda.streamlit.app/
