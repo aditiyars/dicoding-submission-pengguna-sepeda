@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def load_data():
-    weather_data = pd.read_csv('weather_data.csv')
-    day_data = pd.read_csv('day_data.csv')
+    weather_data = pd.read_csv('dashboard/weather_data.csv')
+    day_data = pd.read_csv('dashboard/day_data.csv')
     return weather_data, day_data
 
 weather_df, day_df = load_data()
